@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvItemDateAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/tvItemTimeAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time" />
+
+        <TextView
+            android:id="@+id/tvNameProfessional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Profesional" />
+
+        <TextView
+            android:id="@+id/tvSpecialityProfessional"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Speciality" />
+
+        <TextView
+            android:id="@+id/tvAddressConsultation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address" />
+
+        <TextView
+            android:id="@+id/tvCityConsultation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City" />
+
+        <TextView
+            android:id="@+id/tvPhoneConsultation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone consultation" />
+
+        <Switch
+            android:id="@+id/swItemAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="available/busy" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

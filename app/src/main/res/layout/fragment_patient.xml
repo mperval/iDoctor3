@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnProfesionals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Professionals" />
+
+        <Button
+            android:id="@+id/btnListAppointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="List Appointments" />
+
+        <Button
+            android:id="@+id/btnEvalAppoint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evaluation Appointment" />
+
+        <Button
+            android:id="@+id/btnInformesMedicos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report Professional" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

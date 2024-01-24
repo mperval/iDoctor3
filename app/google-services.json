@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "989596908599",
+    "project_id": "idoctor3",
+    "storage_bucket": "idoctor3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989596908599:android:36b814612039eb866253b2",
+        "android_client_info": {
+          "package_name": "es.iescarrillo.idoctor3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzggmNLGiA0fe4BECZoKvHrRg1E49iICU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

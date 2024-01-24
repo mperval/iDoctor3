@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnConsultation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultation" />
+
+        <Button
+            android:id="@+id/btnTimetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timetable" />
+
+        <Button
+            android:id="@+id/btnGenerateAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Appointment" />
+
+        <Button
+            android:id="@+id/btnMyAppointments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Appointments" />
+
+        <Button
+            android:id="@+id/btnEvaluation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evaluations" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

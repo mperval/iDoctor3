@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listView.LvProfessional">
+
+
+    <ScrollView
+        android:id="@+id/scrollViewLVProf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:id="@+id/lyLvProfessionals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitleProfessional"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/principal"
+                android:padding="8dp"
+                android:text="Professionals"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/lyLvSearch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etSearchProf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:hint="Search Professional"
+                    android:inputType="text"
+                    android:imeOptions="actionSearch"
+                    android:layout_margin="8dp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerProf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:height="48dp"
+                    android:ems="10"
+                    android:textSize="25sp" />
+
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lvProfessional"
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:clickable="true" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnBackLVProf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollViewLVProf"
+        app:layout_constraintRight_toRightOf="@+id/scrollViewLVProf"
+        android:backgroundTint="@color/principal"
+        android:textColor="@color/white"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
